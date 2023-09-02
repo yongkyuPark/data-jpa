@@ -276,7 +276,7 @@ class MemberRepositoryTest {
     
     @Test
     public void callCustom() {
-        memberRepository.findMemberCustom()
+        memberRepository.findMemberCustom();
     }
 
 
